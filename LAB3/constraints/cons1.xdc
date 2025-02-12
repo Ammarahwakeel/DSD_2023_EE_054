@@ -1,3 +1,4 @@
+// for task 1, if we want to test the rtl code again on FPGA. but in this lab we have already simulated it on Questasim.
 set_property -dict { PACKAGE_PIN J15   IOSTANDARD LVCMOS33 } [get_ports { a }]; #IO_L24N_T3_RS0_15 Sch=sw[0]
 set_property -dict { PACKAGE_PIN L16   IOSTANDARD LVCMOS33 } [get_ports { b }]; #IO_L3N_T0_DQS_EMCCLK_14 Sch=sw[1]
 set_property -dict { PACKAGE_PIN M13   IOSTANDARD LVCMOS33 } [get_ports { c }];#IO_L6N_T0_D08_VREF_14 Sch=sw[2]
