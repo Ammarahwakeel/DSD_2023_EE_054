@@ -8,8 +8,9 @@ module dsdlab4(
     input logic b0
     
     );
-    assign red= (~b1 & ~b0) | (a1&a0) | (~b1 & b0 & a0) | (~b1& b0 & a1) | (b1 & ~b0 & a1) ;
+    assign red= (~b1 & ~b0) | (a1&a0) | (~b1 & a0) | (~b1 & a1) | ( ~b0 & a1) ;
     assign green= (~a1 & ~a0 ) | (~a1 & b0) | (~a1 & b1)| (b1 & b0) | (~a0 & b1);
     assign blue= (a1&~b1) | (a0&~b0) | (~a0&b0) | (~a1&b1);
     
+
 endmodule
